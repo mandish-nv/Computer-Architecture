@@ -18,6 +18,9 @@ int main(){
 	long binarynum, decimalnum;
 	
 	printf("Enter abinary number: ");
-	
+	scanf("%d",&binarynum);
+	printf("Equivalent decimal number is: %d");
+	binarytodecimal(binarynum);
+	return 0;
 }
 
